@@ -10,6 +10,7 @@
 		A3A9E416168F3EF200417D19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A9E415168F3EF200417D19 /* main.cpp */; };
 		A3A9E418168F3EF200417D19 /* MD5.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A3A9E417168F3EF200417D19 /* MD5.1 */; };
 		A3A9E438168F3F6200417D19 /* MD5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A9E437168F3F6200417D19 /* MD5.cpp */; };
+		A3A9E446168F46AC00417D19 /* enum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3A9E444168F46AC00417D19 /* enum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,9 @@
 		A3A9E417168F3EF200417D19 /* MD5.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MD5.1; sourceTree = "<group>"; };
 		A3A9E437168F3F6200417D19 /* MD5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MD5.cpp; sourceTree = "<group>"; };
 		A3A9E439168F3F6C00417D19 /* MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5.h; sourceTree = "<group>"; };
+		A3A9E444168F46AC00417D19 /* enum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enum.cpp; sourceTree = "<group>"; };
+		A3A9E445168F46AC00417D19 /* enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enum.h; sourceTree = "<group>"; };
+		A3A9E447168F485800417D19 /* CommonHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonHeaders.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,9 @@
 				A3A9E437168F3F6200417D19 /* MD5.cpp */,
 				A3A9E415168F3EF200417D19 /* main.cpp */,
 				A3A9E417168F3EF200417D19 /* MD5.1 */,
+				A3A9E444168F46AC00417D19 /* enum.cpp */,
+				A3A9E445168F46AC00417D19 /* enum.h */,
+				A3A9E447168F485800417D19 /* CommonHeaders.h */,
 			);
 			path = MD5;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 			files = (
 				A3A9E416168F3EF200417D19 /* main.cpp in Sources */,
 				A3A9E438168F3F6200417D19 /* MD5.cpp in Sources */,
+				A3A9E446168F46AC00417D19 /* enum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
